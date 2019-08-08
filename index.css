@@ -1,0 +1,255 @@
+/* Universal styling  */
+
+html{
+padding: 0;
+margin:0;
+}
+
+/* Bouncing arrow */
+
+
+
+
+
+/* Special Fonts */
+
+
+
+
+
+
+/* Images */
+
+.hero img{
+width: 100%;
+height: 100%; 
+object-fit: cover;
+opacity: 1.0;
+}
+
+.service-image{
+width: 380px;
+height: 500px;
+float: left;
+padding-right: 30px;
+opacity: 0.9;
+}
+
+.service-image:hover{
+opacity: 0.5;
+}
+
+.profileImg{
+border-radius: 50%;
+width:30%;
+height: 325px;
+margin-top: 100px;
+margin-left: 2%;
+object-fit: fill;
+margin-bottom: 120px;
+}
+
+
+
+
+/* Nav and nav clildren  */
+
+.nav{
+padding-top: 25px;
+padding-bottom: 25px;
+background-color: white;
+position: fixed;
+z-index: 1;
+width: 100%;
+}
+
+.nav-link{
+color:black;
+float: left;
+display: block;
+text-align: center !important;
+}
+
+.nav-link:hover{
+color: grey;
+border-bottom: black solid 2px;
+}
+
+
+
+
+/* hero image containers,hero image, and text overlay */
+
+section{
+padding-top: 65px;
+display: flex;
+height: 85vh;
+justify-content: center;
+align-items: center;
+}
+
+.hero{
+height: 90vh;
+width: 100%;
+}
+
+.headline2{
+font-size: 100px;
+transform: translate(0%, -375%);
+color:#5F9EA0;
+text-align: center;
+z-index: 1;
+font-family: 'Julius Sans One', sans-serif;
+font-weight:900;
+}
+
+.headline1{
+font-size: 60px;
+transform: translate(0%, -200%);
+color:black;
+text-align: center;
+z-index: 1;
+font-family: 'Julius Sans One', sans-serif;
+font-weight: 300;
+}
+
+
+
+
+/* Services containers and text */
+
+.services-container{
+height: 400px;
+background-color:#D3D3D3;
+}
+
+#service-title-h2{
+color: #5F9EA0;
+text-transform: uppercase;
+font: bold 60px Sans-Serif;
+transform: rotate(-90deg);
+position: absolute;
+margin-top: 23%;
+margin-left: -6%;
+}
+
+#all-service-images-container{
+height: 100vh;  
+padding-right: 20px;
+margin-left: 150px;
+background-image: linear-gradient(to top, rgb(255, 255, 255), #DCDCDC);
+}
+
+.serviceImg-container{
+width: 300px;
+float: left;    
+margin: 55px;
+}
+
+.title{
+margin-top: 70px;
+padding-left: 10px;
+color: black;
+white-space: nowrap;
+font-size: 30px;
+border-left: 2.5px lightgrey solid;
+}
+
+
+
+/* About Me containers and text  */
+
+#aboutMe-title-h2{
+color: rgb(41, 69, 129);
+text-transform: uppercase;
+font: bold 60px Sans-Serif;
+text-align: right;
+transform: rotate(90deg);
+margin-top: -400px;
+margin-bottom: 100px;
+margin-right: -75px;
+float: right;
+}
+
+.about-me-container{
+margin-top: 30%;
+height: 40vh;
+background-color:#D3D3D3;
+}
+
+.profile-img-container{
+margin-bottom: 25px;
+width:95%;
+background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(248, 247, 247));
+}
+
+.aboutMeContent{
+font-size: 22px;
+font-family: 'Julius Sans One', sans-serif;
+font-weight: 385;
+margin-left: 40%;
+margin-right: 10%;
+position: absolute;
+margin-top: -450px;
+border-left: solid 1px darkgray;
+padding-left: 60px;
+}
+
+.nameColor{
+color: rgb(81, 140, 177);
+font-size: 35px;
+font-weight: 500;
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+margin-top: 25%;
+padding: 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+}
+.l{
+text-align: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}  
+
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 60px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+
+/* google maps */
+.googleMaps{
+    width: 50%;
+    height: 400px;
+    margin-left: 0%;
+    margin-right: 30%;
+    margin-top: 19%;
+}
