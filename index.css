@@ -141,6 +141,7 @@ background-image: linear-gradient(to top, rgb(255, 255, 255), #DCDCDC);
 }
 
 .serviceImg-container{
+display: none;
 width: 300px;
 float: left;    
 margin: 55px;
