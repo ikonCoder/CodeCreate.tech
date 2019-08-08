@@ -82,6 +82,7 @@ border-bottom: black solid 2px;
 
 section{
 padding-top: 65px;
+margin-bottom: 100px;
 display: flex;
 height: 85vh;
 justify-content: center;
@@ -120,7 +121,6 @@ font-weight: 300;
 
 .services-container{
 height: 400px;
-background-color:#D3D3D3;
 }
 
 #service-title-h2{
@@ -179,7 +179,7 @@ background-color:#D3D3D3;
 
 .profile-img-container{
 margin-bottom: 25px;
-width:95%;
+width:97%;
 background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(248, 247, 247));
 }
 
@@ -190,7 +190,7 @@ font-weight: 385;
 margin-left: 40%;
 margin-right: 10%;
 position: absolute;
-margin-top: -450px;
+margin-top: -369px;
 border-left: solid 1px darkgray;
 padding-left: 60px;
 }
@@ -205,14 +205,13 @@ font-weight: 500;
 
 /* Style all font awesome icons */
 .fa {
-margin-top: 25%;
 padding: 20px;
 font-size: 30px;
 width: 50px;
 text-align: center;
 text-decoration: none;
 }
-.l{
+.socialIconContainer{
 text-align: center;
 }
 
@@ -245,11 +244,34 @@ text-decoration: none;
 border-radius: 50%;
 }
 
-/* google maps */
-.googleMaps{
-    width: 50%;
-    height: 400px;
-    margin-left: 0%;
-    margin-right: 30%;
-    margin-top: 19%;
+
+
+#footer{
+text-align: center;
+color:black;
+margin-top: 25px;
+}
+
+
+.award-container *{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.awards-main-container{
+    padding: 50px;
+    margin-top: 15%;
+    display: inline-flex;
+}
+.award-container{
+    border-bottom: solid  2px #007bb5;
+    border-top: solid  2px #007bb5;
+    display: inline-block;
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.author{
+    margin-top: 55px;
 }
