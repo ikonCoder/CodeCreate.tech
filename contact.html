@@ -16,11 +16,10 @@
 
     <!-- jQuery and Js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="index.js"></script>
 
     <title>Contact Me</title>
 </head>
-<body onload="bodyOnLoad();">
+<body>
 <nav>
     <ul class="nav justify-content-center">
         <li class="nav-item">
@@ -30,7 +29,7 @@
             <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="projects.html">PORTFOLIO</a>
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
         </li>
     </ul> 
 </nav>
@@ -41,38 +40,29 @@
 <section>
     <h2 class="contactUsTitle">We'd love to hear from <b id="color">you.</b></h2>
 </section>
+
 <div>
-    <form>
-        First Name:<br>
-        <input type="text" name="firstName"></input><br>
+    <form action="" id="form" name="contactMeForm" method="POST">
+        <label>First Name:</label><br>
+        <input id="firstName" type="text" name="firstName" ><br>
         <br>
 
-        Last Name:<br>
-        <input type="text" name="firstName"></input><br>
+        <label for="Last Name">Last Name:</label><br>
+        <input id="lastName" type="text" name="lastName" ></input><br>
         <br>
 
-        Business:<br>
-        <input type="text" name="firstName"></input><br>
+        <label for="Business Name">Bussiness:</label><br>
+        <input id="businessName"  type="text" name="Busines"></input><br>
         <br>
 
         <div class="messageTitle">Message:</div><br>
-        <textarea class="message" type="text" name="message"></textarea><br>
+        <textarea id="message" class="message" type="text" name="message" ></textarea><br>
         <br>
-
-        <!-- <select name="options" id="options">
-            <option value="Consultation">Consultation</option>
-            <option value="Reviews">Reviews</option>
-            <option value="Questions">Questions</option>
-        </select> -->
         
-        <button type="button" class=" button btn btn-success">Submit</button>
-
-
-        
+        <button type="submit" onclick="Validation()" class="button btn btn-success">Submit</button> 
     </form>
 </div>
-
-
-        
+      
 </body>
+<script src="index.js"></script>
 </html>

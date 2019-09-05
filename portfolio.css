@@ -1,0 +1,65 @@
+#projects-container{
+    padding-top: 10%;
+}
+.project-1{
+    margin-left: 25px;
+    width: 400px;
+    height: 400px;
+}
+
+.project-title, .project-disc{
+float:right;
+width: 800px;
+margin-right: 100px;
+}
+
+.project-title{
+    color: grey;
+    font-size: 50px;
+}
+.project-disc{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#sc-01{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.project-title2, .project-disc2{
+    float:left;
+    width: 800px;
+    margin-right: 100px;
+    padding-left: 5%;
+    }
+
+    .project-title2{
+        font-size: 50px;
+    }
+    .project-disc2{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    #projects-container2{
+        padding-top: 5%;
+    }
+
+    .project-2{
+        float: right;
+        margin-left: 25px;
+        width: 500px;
+        height: 400px;
+    }
+
+    #sc-02{
+        width: 100%;
+        padding-right: 6%
+    }
+    
