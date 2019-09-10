@@ -72,11 +72,11 @@ opacity: 1;
 
 
 .profileImg{
-/* border-radius: 3%; */
+border-radius: 3%;
 width: 350px;
 height: 465px;
 margin-top: 100px;
-margin-left: 50%;
+margin-left: 40%;
 object-fit: fill;
 margin-bottom: 50px;
 }
@@ -88,7 +88,7 @@ margin-bottom: 50px;
 
 .nav{
 padding-top: 25px;
-padding-bottom: 25px;
+padding-bottom: 10px;
 background-color: white;
 position: fixed;
 z-index: 1;
@@ -104,7 +104,7 @@ text-align: center !important;
 
 .nav-link:hover{
 color: grey;
-border-bottom: #FF8C00 solid 2px;
+/* border-bottom: #FF8C00 solid 2px; */
 }
 
 
@@ -122,7 +122,7 @@ align-items: center;
 }
 
 .hero{
-height: 90vh;
+height: 100vh;
 width: 100%;
 }
 
@@ -132,18 +132,19 @@ transform: translate(0%, -375%);
 color:#5F9EA0;
 text-align: center;
 z-index: 1;
-font-family: 'Julius Sans One', sans-serif;
-font-weight:900;
+/* font-family: 'Julius Sans One', sans-serif; */
+font-weight:200;
 }
 
 .headline1{
+margin-top: -50px;
 font-size: 50px;
-transform: translate(0%, -350%);
+transform: translate(0%, -410%);
 color:grey;
 text-align: center;
 z-index: 1;
-font-family: 'Julius Sans One', sans-serif;
-font-weight: 300;
+/* font-family: 'Julius Sans One', sans-serif; */
+font-weight: 200;
 }
 
 
@@ -152,22 +153,13 @@ font-weight: 300;
 /* Services containers and text */
 
 .services-container{
-height: 450px;
-}
-
-.serviceDetailText{
-  position: absolute;
-  color: black;
-  padding: 10px;
-  font-size: 20px;
-  margin-left: 5%;
-  margin-top: 15%;
+height: 60vh;
 }
 
 #service-title-h2{
 color: #5F9EA0;
 text-transform: uppercase;
-font: bold 60px Sans-Serif;
+font: bold 70px Sans-Serif;
 transform: rotate(-90deg);
 position: absolute;
 margin-top: 23%;
@@ -177,32 +169,46 @@ margin-left: -6%;
 #all-service-images-container{
 position: relative;
 height: 100vh;  
-padding-right: 20px;
-margin-left: 100px;
+margin-left: 250px;
 }
 
 .serviceImg-container{
-display: none;
-width: 300px;
+/* display: none; */
+width: 25%;
 float: left;    
-margin: 55px;
+margin-left: 50px;
+margin-right: 150px;
+
 }
 
 .title{
 margin-top: 70px;
 padding-left: 10px;
-color: black;
+color: darkgray;
 white-space: nowrap;
 font-size: 30px;
 border-left: 2.5px #FF8C00 solid;
 }
+
+#serviceDetails{
+  font-size: 25px;
+  list-style-type: none;
+}
+#serviceTitle{
+  font-size: 55px;
+  text-align: center;
+}
+.modal-content *{
+  text-align: center;
+}
+
 
 
 
 /* About Me containers and text  */
 
 #aboutMe-title-h2{
-color: rgb(41, 69, 129);
+color: rgb(12, 12, 12);
 text-transform: uppercase;
 font: bold 60px Sans-Serif;
 text-align: right;
@@ -240,13 +246,12 @@ margin-left: 40%;
 margin-right: 10%;
 position: absolute;
 margin-top: -420px;
-border-left: solid 1px #FF8C00 ;
 padding-left: 40px;
 }
 
 .nameColor{
-color: rgb(81, 140, 177);
-font-size: 35px;
+color: grey;
+font-size: 45px;
 font-weight: 500;
 }
 
@@ -254,7 +259,7 @@ font-weight: 500;
 /* Styles for reviews */
 
 .awards-main-container{
-  margin-top: 15%;
+  margin-top: 25%;
   display: inline-flex;
 }
 .award-container{
@@ -268,7 +273,7 @@ font-weight: 500;
   margin-left: 25%;
   margin-right: 25%;
   text-align: center;
-  border-bottom: solid  2px #007bb5;
+  border-bottom: solid 2px #007bb5;
 }
 
 
@@ -306,6 +311,11 @@ background: #125688;
 color: white;
 }  
 
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
 .fa {
 padding: 20px;
 font-size: 30px;
@@ -319,9 +329,52 @@ border-radius: 50%;
 text-align: center;
 color:black;
 margin-top: 25px;
+font-size: 10px;
 }
 
 
 
-/* CONDITIONAL STYLES  */
 
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 4px solid #5F9EA0; 
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close1, .close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus,
+.close2:hover,
+.close2:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close1, .close2{
+  margin-left: 99%;
+}

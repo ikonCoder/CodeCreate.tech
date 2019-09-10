@@ -11,6 +11,7 @@
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="index.css" type="text/css"/>
+    <link rel="stylesheet" href="serviceContainerStyling.css"/>
     <link rel="stylesheet" href="viewpoints.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -37,7 +38,7 @@
 <section>
     <div class="hero">
         <img src="image1.jpg">
-        <h1 class="headline1">Turn your dreams, into a reality</h1>
+        <h1 class="headline1">Turn your dreams, into your reality</h1>
         <h1 class="headline2">Code Create</h1>
     </div>
 </section>
@@ -47,28 +48,57 @@
 
 <div class="services-container">
     <h2 id="service-title-h2">Services</h2>
-    <div id="all-service-images-container">
+    <div id="all-service-images-container"> 
 
         <div class="serviceImg-container">
             <h2 class="title">Web devlopment</h2>
-                <button class="serviceDetailText">Click Here For Quote</button>
-                    <img class="service-image service-1" src="service1.jpg">
-        </div>
+            <button type="button" id="Btn1" class="btn btn-outline-secondary">Click here for more information!</button>
+                <img class="service-image service-1" src="service1.jpg">     
+
+        </div>  
 
         <div class="serviceImg-container">
             <h2 class="title">Photography</h2>
-                <button class="serviceDetailText">Click Here For Quote</button>
-                    <img class="service-image service-2" src="service2.jpg">
-        </div>
-
-        <div class="serviceImg-container">
-            <h2 class="title">Social Media Management</h2>
-                <button class="serviceDetailText">Click Here For Quote</button>
-                    <img class="service-image service-3" src="service3.jpg">
+            <button type="button" id="Btn2" class="btn btn-outline-secondary">Click here for more information!</button>
+                <img class="service-image service-2" src="service2.jpg">
         </div>
 
     </div>
 </div>
+
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+<!-- Modal content -->
+  <div class="modal-content">
+    <span class="close1"> &times; </span>
+    <h1 id="serviceTitle">Web Devlopment</h1>
+    <h6>Cost of website build varies per project.</h6>
+    <ul>
+        <li id="serviceDetails">Hosting: $45/yr</li>
+        <li id="serviceDetails">SSL: $100/yr</li>
+        <li id="serviceDetails">24/7 website support</li>
+    </ul>
+    </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+<!-- Modal content -->
+    <div class="modal-content">
+    <span class="close2"> &times; </span>
+    <h1>Photography</h1>
+    <ul>
+        <li>Hosting: $45/yr</li>
+        <li>SSL: $100/yr</li>
+        <li>24 hours /per month of customer consultation </li>
+        <li>24/7 website support</li>
+    </ul>
+    </div>
+</div>
+
 
 <div class="about-me-container">
     <div class="profile-img-container">
@@ -77,9 +107,7 @@
         </div>
         <p class="aboutMeContent"><span class="nameColor">Matthew Joseph</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed maiores reiciendis itaque minus, ratione iste aliquid, ut exercitationem illum molestias iusto saepe fugiat earum? Dicta exercitationem architecto alias sed itaque.
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed maiores reiciendis itaque minus, ratione iste aliquid, ut exercitationem illum molestias iusto saepe fugiat earum? Dicta exercitationem architecto alias sed itaque./p>
-        
     </div>
-        <!-- <h2 id="aboutMe-title-h2">About Me</h2> -->
 </div>
 
 <section class="awards-main-container">
@@ -107,14 +135,16 @@
 
 <div class="socialIconContainer">
 <!-- Add font awesome icons -->
-<a href="#" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-linkedin"></a>
+<a href="instagram.com/codecreatetech" class="fa fa-instagram"></a>
+<a href="https://www.youtube.com/channel/UC8WrilKedIQjaGxyompHNbA" class="fa fa-youtube"></a>
+<a href="https://www.linkedin.com/in/matthew-joseph-430721109/" class="fa fa-linkedin"></a>
 </div> 
 
-
-
 <p id="footer">MATTHEW JOSEPH</p>
+
+
+
+
 </body>
 <script src="index.js"></script>
 </html>
