@@ -1,9 +1,9 @@
   // JQUERY
 
-//   $(document).scroll(function(){
-//     $(".serviceImg-container").animate({right: '300px'});
-//     $(".serviceImg-container").show(2000, "linear");
-// });
+  $(document).scroll(function(){
+    $(".serviceImg-container").animate({right: '300px'});
+    $(".serviceImg-container").show(2000, "linear");
+});
 
 
 //JavaScript

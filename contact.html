@@ -42,24 +42,17 @@
 </section>
 
 <div>
-    <form action="" id="form" name="contactMeForm" method="POST">
-        <label>First Name:</label><br>
-        <input id="firstName" type="text" name="firstName" ><br>
+    <form action="contactForm.php" id="form" name="contactMeForm" method="post">
+        <input id="Email" type="text" name="Email" placeholder="Email"><br>
         <br>
 
-        <label for="Last Name">Last Name:</label><br>
-        <input id="lastName" type="text" name="lastName" ></input><br>
+        <input id="Subject"  type="text" name="Subject" placeholder="Subject"></input><br>
         <br>
 
-        <label for="Business Name">Bussiness:</label><br>
-        <input id="businessName"  type="text" name="Busines"></input><br>
-        <br>
-
-        <div class="messageTitle">Message:</div><br>
-        <textarea id="message" class="message" type="text" name="message" ></textarea><br>
+        <textarea id="message" class="message" type="text" name="message" placeholder="Message" ></textarea><br>
         <br>
         
-        <button type="submit" onclick="Validation()" class="button btn btn-success">Submit</button> 
+        <button type="submit" onclick="Validation()" name="submit" class="button btn btn-success">Submit</button> 
     </form>
 </div>
       
