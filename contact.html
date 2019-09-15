@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="viewpoints.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- jQuery and Js -->
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="index.js"></script>
 
     <title>Contact Me</title>
 </head>
@@ -42,20 +44,22 @@
 </section>
 
 <div>
-    <form action="contactForm.php" id="form" name="contactMeForm" method="post">
-        <input id="Email" type="text" name="Email" placeholder="Email"><br>
+    <form action="https://formspree.io/codecreatetech@gmail.com" method="POST" id="form">
+
+        <input class="name" type="text" name="name" placeholder="Name"><br>
         <br>
 
-        <input id="Subject"  type="text" name="Subject" placeholder="Subject"></input><br>
+        <input class="email" type="text" name="email" placeholder="Email"><br>
         <br>
 
-        <textarea id="message" class="message" type="text" name="message" placeholder="Message" ></textarea><br>
+        <input class="subject"  type="text" name="subject" placeholder="Subject"></input><br>
         <br>
-        
-        <button type="submit" onclick="Validation()" name="submit" class="button btn btn-success">Submit</button> 
+
+        <textarea class="message" type="text" name="message" placeholder="Message" ></textarea><br>
+        <br>
+        <div class="status"></div>
+        <button type="submit" class="button submit btn btn-success">Submit</button> 
     </form>
 </div>
-      
 </body>
-<script src="index.js"></script>
 </html>
