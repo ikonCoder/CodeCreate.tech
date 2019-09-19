@@ -1,6 +1,6 @@
 /* Universal styling  */
 
-html{
+body{
 padding: 0;
 margin:0;
 }
@@ -116,14 +116,6 @@ color: grey;
 
 /* hero image containers,hero image, and text overlay */
 
-section{
-padding-top: 65px;
-margin-bottom: 100px;
-display: flex;
-height: 85vh;
-justify-content: center;
-align-items: center;
-}
 
 .hero{
 height: 100vh;
@@ -132,22 +124,21 @@ width: 100%;
 
 .headline2{
 font-size: 100px;
-transform: translate(0%, -375%);
+/* transform: translate(0%, -375%); */
+margin-top: -33%;
 color:#5F9EA0;
 text-align: center;
 z-index: 1;
-/* font-family: 'Julius Sans One', sans-serif; */
 font-weight:200;
 }
 
 .headline1{
-margin-top: -50px;
 font-size: 50px;
-transform: translate(0%, -410%);
+/* transform: translate(0%, -610%); */
+padding-top: 2%;
 color:grey;
 text-align: center;
 z-index: 1;
-/* font-family: 'Julius Sans One', sans-serif; */
 font-weight: 200;
 }
 
@@ -178,7 +169,7 @@ margin-left: 250px;
 }
 
 .serviceImg-container{
-display: none;
+/* display: none; */
 width: 25%;
 float: left;    
 margin-left: 50px;
@@ -286,7 +277,7 @@ font-weight: 500;
 
 #Reviews-title{
 color: #5F9EA0;
-margin-bottom: -50px;
+margin-bottom: 70px;
 text-transform: uppercase;
 font: bold 60px Sans-Serif;
 text-align: center;
@@ -297,13 +288,13 @@ text-align: center;
   margin-top: 0;
 }
 .award-container{
-  width: 25%;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 30%;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .author{
-  margin-top: 40%;
+  margin-top: 35%;
   margin-left: 25%;
   margin-right: 25%;
   padding-bottom: 10px;
@@ -311,10 +302,10 @@ text-align: center;
   border-bottom: solid 2px orange;
 }
 .three{
-  margin-top: 50%;
+  margin-top: 41%;
 }
 .two{
-  margin-top: 34%;
+  margin-top: 35%;
 }
 
 
@@ -371,6 +362,10 @@ text-align: center;
 color:black;
 margin-top: 25px;
 font-size: 15px;
+}
+
+.socialIconContainer{
+  margin-top: 200px;
 }
 
 

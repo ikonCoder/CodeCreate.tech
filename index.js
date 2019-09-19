@@ -1,5 +1,8 @@
   // JQUERY
 
+
+  //From Valid. 
+
 $(document).scroll(function(){
   $(".serviceImg-container").animate({right: '300px'});
   $(".serviceImg-container").show(2000, "linear");
@@ -47,7 +50,7 @@ $(document).ready(function () {
 })
 
 
-//JavaScript
+// Home page modals
 
 // Get the modal
 var modal1 = document.getElementById("myModal1");
