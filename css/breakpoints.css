@@ -5,9 +5,11 @@
   .headline1{
     font-size: 35px;
     text-align: right;
+    margin-right: 0px;
   }
   .headline2{
-    font-size: 100px;
+    font-size: 80px !important;
+    margin-right: 0px;
   }
   .nav-link{
     font-size: 16px !important;
@@ -20,16 +22,18 @@
   }
   #service-title-h2{
     text-align: left;
+    font-size: 55px;
   }
   #all-service-images-container{
     width: 100vw;
     margin-top: 50px;
+    height: 490px;
   }
   div.gallery{
     width: auto;
   }
   #projSwitch{
-    margin-top: 50%;
+    margin-top: 260px;
   }
   #hoverTxt,.projTitle{
     display: none;
