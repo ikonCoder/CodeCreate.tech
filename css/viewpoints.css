@@ -1,0 +1,212 @@
+/*STYLES FOR HOMEPAGE */
+
+@media screen and (max-width: 750px) {
+
+.nav-link {
+display: block;
+text-align: center !important;
+font-size: 20px;
+font-weight: 500;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.active-page{
+border-bottom: solid 1px lightgray;
+}
+nav{
+width: 100%;
+
+}
+.hero{
+min-height: calc(100vh - 10px);
+width: 100vw !important;
+height: 90vh;
+}
+
+/* .headline1{
+margin-top:2.5rem;
+font-size: 40px;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+}
+.headline2{
+font-weight: 450;
+margin-top:-7.2em;
+font-size: 85px;
+text-align: center;
+} */
+.arrow{
+margin-bottom: 50%;
+margin-left: 48%;
+text-align: center;
+margin-top: -15%;
+}
+#welcome{
+color: grey;
+text-align: center;
+margin-left: 2.5%;
+margin-top: -67%;
+}
+
+.services-container{
+background-color: sandybrown;
+height: 175vh   ;
+margin-top: 30%;
+opacity: 0.9; 
+}
+
+#all-service-images-container{
+margin-left: 0px;
+}
+
+.modal-content{
+margin: 25% auto; /* 15% from the top and centered */
+width: 90%;
+
+}
+#service-title-h2{
+font-size: 65px;
+transform: none;
+position: relative;
+text-align: center;
+margin: 0px;
+}
+
+#Btn1, #Btn2{
+width: 20em;
+}
+
+.service-disc{
+display: none;
+}
+.service-image{
+margin-left: -25%;
+
+}
+
+.about-me-container{
+margin-top: 5%;
+}
+
+#AboutMe-title-h2{
+text-align: center;
+margin: 0;
+margin-top: 40%;
+margin-bottom:-5%;
+font-size: 65px;
+}
+.profileImg{
+display: none;
+}
+
+.aboutMeContent{
+font-size: 22px;
+font-weight: 385;
+margin-left: 0%;
+margin-right: 0%;
+padding-right: 15px;
+margin-top: 0%;
+word-break:break-word;
+}
+
+.profile-img-container{
+display: none;
+}
+#AboutMe-title-h2{
+padding-bottom: 20%;
+padding-top: 20%;
+}
+.nameColor{
+margin-left: 20%;
+float: none;
+}
+
+#Reviews-title{
+color: #5F9EA0;
+margin-bottom: 70px;
+padding-top: 78%;
+text-transform: uppercase;
+font: bold 60px Sans-Serif;
+text-align: center;
+}
+
+.awards-main-container{
+display: block;
+width: 100%;
+}
+
+.award-container{
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+
+blockquote{
+padding: 20px;
+}
+
+.author{
+margin-top: 5%;
+}
+
+.socialIconContainer{
+margin-top: 50px;
+}
+
+
+}
+
+
+
+@media screen and (max-height : 500px) {
+.headline2{
+margin-top: -35%;
+}
+
+}
+
+
+/* Styles for contact page  */
+
+
+@media screen and (max-width: 750px) {
+#contactHeaderImage{
+    width: 100%;
+    height: 25vh
+}
+
+.button{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 65%;
+    margin-right: 65%;
+}
+
+.contactUsTitle{
+    margin-top: 50%;
+}
+
+.name,.email,.subject{
+    width: 175%;
+    padding: 10px;
+}
+
+.message{
+width: 175%;
+float: none;
+margin-top: 15%;
+box-sizing: border-box;
+border: solid black 1px;
+}
+
+
+
+
+
+
+
+
+
+
+}

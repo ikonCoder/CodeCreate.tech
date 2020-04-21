@@ -1,0 +1,67 @@
+@media (max-width: 768px){
+  .justify-content-end{
+    justify-content: center!important;
+  }
+  .headline1{
+    font-size: 35px;
+    text-align: right;
+  }
+  .headline2{
+    font-size: 100px;
+  }
+  .nav-link{
+    font-size: 16px !important;
+  }
+  .services-container{
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-color: #fb8b2da1;
+    background-size: contain;
+  }
+  #service-title-h2{
+    text-align: left;
+  }
+  #all-service-images-container{
+    width: 100vw;
+    margin-top: 50px;
+  }
+  div.gallery{
+    width: auto;
+  }
+  #projSwitch{
+    margin-top: 50%;
+  }
+  #hoverTxt,.projTitle{
+    display: none;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: unset !important;
+    right: 0;
+    background-color: #073042;
+    overflow: hidden;
+    width: 85vw;
+    height: 0;
+    transition: .5s ease;
+  }
+  #Reviews-title{
+    font-size: 65px;
+    text-align: left;
+    color: #073042;
+    padding-top: 0%;
+  }
+  #AboutMe-title-h2{
+    padding-bottom: 10%;
+    text-align: right;
+    margin-right: 5px;
+  }
+  .about-me-container{
+    height: 100vh;
+    margin-bottom: 10%;
+  }
+  .awards-main-container{
+    height: 100vh;
+    margin-top: 125px;
+  }
+}

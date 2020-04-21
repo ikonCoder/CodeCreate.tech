@@ -11,9 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
 
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="index.css" type="text/css"/>
-    <link rel="stylesheet" href="viewpoints.css" type="text/css">
-    <link rel="stylesheet" href="serviceContainerStyling.css"/>
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/viewpoints.css" type="text/css">
+    <link rel="stylesheet" href="css/breakpoints.css" type="text/css">
+    <link rel="stylesheet" href="css/serviceContainerStyling.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- jQuery and Js -->
@@ -23,142 +24,134 @@
 </head>
 <body>
     <nav>
-        <ul class="nav justify-content-center">
+        <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">CONTACT ME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active-page" href="index.html">HOME</a>
+                <a class="nav-link active-page" href="#home">HOME</a>
              </li>
              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
             </li>
         </ul>
     </nav>
-
-    <div class="hero">
-        <img class="heroImg" src="image1.jpg">
-            <div class="center-div">
-                <h1 class="headline2">Code Create</h1>
-                <h2 class="headline1">Turn your <b>dreams,</b> into your <b>reality.</b></h2>
-            </div>
-    </div>
-
-<div class="arrow bounce"></div>
-<h3 id="welcome" class="bounce">WELCOME</h3>
-
-
-
-
-<div class="services-container">
-    <h2 id="service-title-h2">Services</h2>
-    <p class="service-disc">CodeCreate handles each and every clients project like their own.       With care and percision, magic is made. Wither you are looking for an aweome website to promote your passions and projects, or a couple needing some beautiful engagemnt shots! We make sure your satisfation, is our top priority.</p>
-    <div id="all-service-images-container"> 
-
-        <div class="serviceImg-container">
-            <h2 class="title">Web devlopment</h2>
-            <button type="button" id="Btn1" class="btn btn-outline-secondary">Click here for more information!</button>
-                <img class="service-image service-1" src="service1.jpg">     
-        </div>  
-
-        <div class="serviceImg-container">
-            <h2 class="title">Photography</h2>
-            <button type="button" id="Btn2" class="btn btn-outline-secondary">Click here for more information!</button>
-                <img class="service-image service-2" src="service2.jpg">
+    <section id="home">
+        <div class="hero">
+            <img class="heroImg" src="imgs/main1.jpg">
+                <div class="center-div">
+                    <h1 class="headline2">Matthew Joseph</h1>
+                    <h2 class="headline1">Using <b>code,</b> to power <b>innovation.</b></h2>
+                </div>
         </div>
+        <div class="arrow bounce"></div>
+    </section>
 
-    </div>
-</div>
-
-<!-- The Modal -->
-<div id="myModal1" class="modal">
-
-        <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close1"> &times; </span>
-            <h1 id="serviceTitle">Web Devlopment</h1>
-            <h6>Cost of website build varies per project.</h6>
-            <ul>
-                <li id="serviceDetails">Hosting: $45/yr</li>
-                <li id="serviceDetails">SSL: $100/yr</li>
-                <li id="serviceDetails">24/7 website support</li>
-            </ul>
-            </div>
-        </div>
-        
-        <!-- The Modal -->
-        <div id="myModal2" class="modal">
-        
-        <!-- Modal content -->
-            <div class="modal-content">
-            <span class="close2"> &times; </span>
-            <h1 id="serviceTitle" >Photography</h1>
-            <li id="serviceDetails">Portrait Sessions,Graduations,Birthdays, Etc.</li>
-            <h6>Travel is not included. Must be covered by client.</h6>
-            <ul>
-                <li> <b id="bronze">Bronze:</b> $50-100/hr </li>
-                <li>100-200 shots</li>
-                <li>Up to 2 Outfit Changes</li>
-            </ul>
+    <section id="portfolio">
+        <div class="services-container">
+            <h2 id="service-title-h2">projects</h2>
             
-            <ul>
-                <li> <b id="silver">Silver:</b> $125-175/hr </li>
-                <li>125-200 shots</li>
-                <li>Up to 4 outfit </li>
-            </ul>   
-        
-            <ul>
-                <li> <b id="gold">Gold:</b> $300-450/hr </li>
-                <li> 1000+ shots</li>
-                <li>Unlimited outfits</li>
-            </ul>
-        
+            <div id="all-service-images-container"> 
+                <p id="hoverTxt" style="font-size: 13px; padding: 10px 10px 0px 10px;">*hover over images to reveal details</p>
+
+                <div class="devItemContainer">
+
+
+                    <div class="item">
+                        <div class="gallery project1">
+                            <div class="overlay">
+                                <div class="text">
+                                    <div class="disc">Flavor Castle</div>
+                                    <div id="colorLine"></div>
+                                    <p class="disc-info">Flavor Castle, a website that I built to replicate a real resturant. It's purpose is to offer a minimal approach to design while still giving the user functionality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" href="FlavorCastle.com">FlavorCastle.com</a></p>
+
+                    </div>
+
+                    <div class="item">
+                        <div class="gallery project3">
+                            <div class="overlay">
+                                <div class="text">
+                                    <div class="disc">Crate Coffee</div>
+                                    <div id="colorLine"></div>
+                                    <p class="disc-info">Flavor Castle, a website that I built to replicate a real resturant. It's purpose is to offer a minimal approach to design while still giving the user functionality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" href="dott.com">CrateCoffee.com</a></p>
+
+                    </div>
+
+                    <div class="item">
+                        <div class="gallery project2">
+                            <div class="overlay">
+                                <div class="text">
+                                    <div class="disc">Dott</div>
+                                    <div id="colorLine"></div>
+                                    <p class="disc-info">Flavor Castle, a website that I built to replicate a real resturant. It's purpose is to offer a minimal approach to design while still giving the user functionality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" href="dott.com">Dott.com</a></p>
+
+                    </div>
+                  </div>
+                <button type="button" id="projSwitch" class="btn btn-info">Click here to see my Github!</button>
             </div>
         </div>
+    </section>
+
     <div class="about-me-container">	
-            <h2 id="AboutMe-title-h2">About Me</h2>	
+        <h2 id="AboutMe-title-h2">About <span style="color: #fb8b2da1;"> Me </span></h2>	
         <div class="profile-img-container">	
             <div class="img-direct-containter">	
-                <img src="profilePicture2.jpg" class="profileImg" alt="profile img">	
+                <img src="imgs/profilePicture2.jpg" class="profileImg" alt="profile img">	
             </div>	        
         </div>
             <p class="aboutMeContent">I have been doing creative work since I can remember! I started off taking pictures of my friends back in high school, and I enjoyed the creative process of finding unique angles and editing afterwards. But, what really sparked my fire was capturing the moment. Every photo I took had a story behind it and for me to capture that moment was something special. Coding became a passion for me later, but it had a similar affect on me.  I’ve created CodeCreate because I wanted to use my skills and passions help bring other peoples visions to life. This is my passion and I hope to inspire artist to pursue theirs as well. <br> <br> <span class="nameColor">- Matthew Joseph</span>	
             </p> 	
-        </div>	 
-        <h3 id="Reviews-title">Reviews</h3>	        
-        <section class="awards-main-container">	           
-                <div class="award-container">	            
-                    <blockquote>"Matthew and his team were so professional. They were able to bring my website to life and attract customers to my business! I recommend 100% You can't go wrong with Code Create."<blockquote>	            
-                    <p class='author'>Flavor Castle</p>	            
-                </div>	   
+    </div>	
+    
+    
 
-                
-                <div class="award-container">	                
-                    <blockquote>"Coffee being my passion, I needed a website that captured my passion and allowed my customers to experience the flavors of my coffee. Code Create was able to do that for me and my business."<blockquote>     
-                    <p class='author two'>Create Coffee</p>	               
-                </div>	           
+    <section class="awards-main-container">	   
+        <h3 id="Reviews-title">Contact</h3>	        
+        
+        <!-- <div class="award-container">	            
+            <blockquote>"Matthew and his team were so professional. They were able to bring my website to life and attract customers to my business! I recommend 100% You can't go wrong with Code Create."<blockquote>	            
+            <p class='author'>Flavor Castle</p>	            
+        </div>	   
+
+            
+        <div class="award-container">	                
+            <blockquote>"Coffee being my passion, I needed a website that captured my passion and allowed my customers to experience the flavors of my coffee. Code Create was able to do that for me and my business."<blockquote>     
+            <p class='author two'>Create Coffee</p>	               
+        </div>	           
+    
+    
+        <div class="award-container">	          
+                <blockquote>"
+                    Matthew did an awesome job communicating with the customer and really brings your ideas into reality. He made taking my graduation photos an effortless experience."<blockquote>	         
+                <p class='author three'>Jamie Halloway</p>	                  
+        </div>	         -->
+    </section>	
         
         
-                <div class="award-container">	          
-                        <blockquote>"
-                            Matthew did an awesome job communicating with the customer and really brings your ideas into reality. He made taking my graduation photos an effortless experience."<blockquote>	         
-                        <p class='author three'>Jamie Halloway</p>	                  
-                </div>	        
-        </section>	
-        
-        
-        <div class="socialIconContainer">	
+        <!-- <div class="socialIconContainer">	 -->
         <!-- Add font awesome icons -->	
-        <a href="instagram.com/codecreatetech" class="fa fa-instagram"></a>	
+        <!-- <a href="instagram.com/codecreatetech" class="fa fa-instagram"></a>	
         <a href="https://www.youtube.com/channel/UC8WrilKedIQjaGxyompHNbA" class="fa fa-youtube"></a>	
         <a href="https://www.linkedin.com/in/matthew-joseph-430721109/" class="fa fa-linkedin"></a>	
-        </div> 	
+        </div> 	 -->
         
         
-        <footer id="footer">CodeCreate</footer>	
+        <!-- <footer id="footer">CodeCreate</footer>	 -->
 
 </body>
-<script src="index.js"></script>
+<script src="js/index.js"></script>
 </html>
 
 
