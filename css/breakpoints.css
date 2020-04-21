@@ -116,4 +116,9 @@
 .active-page{
   border: none !important;
 }
+#divLine{
+  color: #fb8b2da1;
+  width: 70vw;
+  border: solid 1px;
+}
 }
