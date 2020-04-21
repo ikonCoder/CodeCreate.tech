@@ -58,6 +58,7 @@
     text-align: left;
     color: #073042;
     padding-top: 0%;
+    margin-bottom: 0px;
   }
   #AboutMe-title-h2{
     padding-bottom: 10%;
@@ -65,12 +66,14 @@
     margin-right: 5px;
   }
   .about-me-container{
-    height: 75vh;
+    height: 65vh;
+    background-color: #c7c4c40f;
+    border-radius: 22px;
     /* margin-bottom: 10%; */
   }
   .awards-main-container{
     height: 100vh;
-    /* margin-top: 125px; */
+    margin-top: 100px;
   }
   .nameColor {
     text-align: center;
@@ -82,4 +85,32 @@
     padding-right: 5px;
     text-align: center;
   }
+  .name, .email, .subject, .message {
+    width: 89vw;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  .message{
+    margin-top: 20px;
+    height: 135px;
+  }
+  .contactUsTitle{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+  .button {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+    margin-right: 22px;
+    float: right;
+    width: 190px;
+    background-color: #d7effe;
+    border-color: #d7effe;
+    color: black;
+}
 }
