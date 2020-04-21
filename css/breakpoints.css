@@ -113,4 +113,7 @@
     border-color: #d7effe;
     color: black;
 }
+.active-page{
+  border: none !important;
+}
 }
