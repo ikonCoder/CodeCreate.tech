@@ -23,36 +23,68 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT ME</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active-page" href="#home">HOME</a>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-            </li>
-        </ul>
-    </nav>
+    <div style="height: 1px;" id='test'></div>
+    <div id=container>
+        <nav class="navbarr">
+            <ul class="nav justify-content-end">
+                <p id="logo">MJ</p>
+                <li class="nav-item">
+                    <a class="nav-link active-page" href="#test">HOME</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT ME</a>
+                </li>
+                
+            </ul>
+        </nav>
+
     <section id="home">
-        <div class="hero">
-            <img class="heroImg" src="imgs/main1.jpg">
-                <div class="center-div">
-                    <h1 class="headline2">Matthew Joseph</h1>
-                    <h2 class="headline1">Using <b>code,</b> to power <b>innovation.</b></h2>
-                </div>
+        <div id="headerTxtContainer">
+            <h1 id="wdr">Websites done right.</h1>
+            <h1 id="headerTxt1">Full-Stack Developer</h1>
+            <h2 id="headerTxt2">I am experiencd web developer with the skills to build out beautiful and responsive websites! I take pride and joy in creating sites that add value to others. Take a look at my portfolio here to see some awesome projects I've built. </h2>
+
+            <div class="wrapper">
+                <a target="_blank"href="https://github.com/ikonCoder">
+                    <div class="action">
+                    <span class="action__mask"></span>
+                    <span class="action__text">Github</span>
+                    <span class="action__text action__text--bis">Github</span>
+                    </div>
+                </a>
+                
+                <br>
+
+                <a href="#contact">
+                    <div class="action">
+                    <span class="action__mask"></span>
+                    <span class="action__text">I'm looking to hire</span>
+                    <span class="action__text action__text--bis">I'm looking to hire</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- <div class="arrow bounce">
+                <p style= "margin-top: -27px;margin-left: -11px;font-size: 14px;vertical-align: top;position: absolute;  "> EXPLORE</p>
+            </div> -->
         </div>
-        <div class="arrow bounce"></div>
     </section>
 
+    <!-- <div style="height: 6vh;" id="portfolio0"></div> -->
+
     <section id="portfolio">
+        
         <div class="services-container">
             <h2 id="service-title-h2">projects</h2>
             
             <div id="all-service-images-container"> 
-                <p id="hoverTxt" style="font-size: 13px; padding: 10px 10px 0px 10px;">*hover over images to reveal details</p>
+                <p id="hoverTxt" style="font-size: 13px; padding: 10px 10px 0px 10px; text-align: center;">*hover over images to reveal details</p>
 
                 <div class="devItemContainer">
 
@@ -60,6 +92,7 @@
                     <div class="item">
                         <div class="gallery project1">
                             <div class="overlay">
+                                <div id="exitBtn"></div>
                                 <div class="text">
                                     <div class="disc">Flavor Castle</div>
                                     <div id="colorLine"></div>
@@ -67,13 +100,14 @@
                                 </div>
                             </div>
                         </div>
-                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" href="FlavorCastle.com">FlavorCastle.com</a></p>
+                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" target="blank" href="building.html">FlavorCastle.com</a></p>
 
                     </div>
 
                     <div class="item">
                         <div class="gallery project3">
                             <div class="overlay">
+                                <div id="exitBtn"></div>
                                 <div class="text">
                                     <div class="disc">Crate Coffee</div>
                                     <div id="colorLine"></div>
@@ -81,13 +115,14 @@
                                 </div>
                             </div>
                         </div>
-                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" href="dott.com">CrateCoffee.com</a></p>
+                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" target="blank" href="building.html">CrateCoffee.com</a></p>
 
                     </div>
 
                     <div class="item">
                         <div class="gallery project2">
                             <div class="overlay">
+                                <div id="exitBtn"></div>
                                 <div class="text">
                                     <div class="disc">Dott</div>
                                     <div id="colorLine"></div>
@@ -95,32 +130,36 @@
                                 </div>
                             </div>
                         </div>
-                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" href="dott.com">Dott.com</a></p>
+                        <p style="text-align: center; margin-top: 10px;"><a class="projTitle" target="blank" href="building.html">Dott.com</a></p>
 
                     </div>
                   </div>
-                <button type="button" id="projSwitch" class="btn btn-info">Click here to see my Github!</button>
             </div>
         </div>
     </section>
 
-    <div class="about-me-container">	
-        <h2 id="AboutMe-title-h2">About <span style="color: #fb8b2da1;"> Me </span></h2>	
+    <div id="aboutMe"></div>
+    <section  class="about-me-container">	
         <div class="profile-img-container">	
-            <div class="img-direct-containter">	
-                <img src="imgs/profilePicture2.jpg" class="profileImg" alt="profile img">	
-            </div>	        
+            <img src="imgs/profilePicture1.jpg" class="profileImg" alt="profile img">		        
         </div>
-            <p class="aboutMeContent">Coding became a passion for me later, but it had a similar affect on me.  I’ve created CodeCreate because I wanted to use my skills and passions help bring other peoples visions to life. This is my passion and I hope to inspire artist to pursue theirs as well. <br> <br> <span class="nameColor">- Matthew Joseph</span>	
+   
+            <p class="aboutMeContent">Coding became a passion for me later, but it had a similar affect on me.  I’ve created CodeCreate because I wanted to use my skills and passions help bring other peoples visions to life. This is my passion and I hope to inspire artist to pursue theirs as well. Lorem ipsum, dolor siaerat aut, praesentium quisquam voluptatibus similique accusantium saepe recusandae? <br> <br>   
+            <span class="nameColor">- Matthew Joseph</span>	
+
+            <span id="skillSec"></span>
             </p> 	
-    </div>	
+
+        <h2 id="AboutMe-title-h2">About <span style="color: #fb8b2da1;"> Me </span></h2>	
+        
+    </section>	
     
-    <hr id="divLine">
+    
 
-    <section class="awards-main-container">	   
+    <section id="contact" class="awards-main-container">	   
+        <div id="jobs" style="margin-top: 125px; margin-left: 15%;">
         <h3 id="Reviews-title">Contact</h3>	
-        <h2 class="contactUsTitle">We'd love to hear from <b id="color">you.</b></h2>
-
+        <h2 class="contactUsTitle">I'd love to hear from <b id="color">you.</b></h2>
         <div>
             <form action="https://formspree.io/codecreatetech@gmail.com" method="POST" id="form">
         
@@ -139,6 +178,10 @@
                 <button type="submit" class="button submit btn btn-success">Submit</button> 
             </form>
         </div>
+    </div>
+        <div id="contactImgContainer">
+            <img id="contactHeaderImage" src="imgs/contactImageHeader.jpg">
+        </div>
     </section>	
         
         
@@ -151,8 +194,9 @@
         
         
         <!-- <footer id="footer">CodeCreate</footer>	 -->
-
+    </div>
 </body>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 <script src="js/index.js"></script>
 </html>
 

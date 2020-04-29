@@ -1,124 +1,277 @@
-@media (max-width: 768px){
-  .justify-content-end{
-    justify-content: center!important;
+@media(max-width:1500px){
+  #skillSec{
+    margin-left: 110%;
   }
-  .headline1{
-    font-size: 35px;
-    text-align: right;
-    margin-right: 0px;
-    padding-left: 6px;
-    padding-right: 6px;
+  #btnsContainter{
+    left: 50%;
+    margin-left: 0px;
   }
-  .headline2{
-    font-size: 80px !important;
-    margin-right: 0px;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  .nav-link{
-    font-size: 16px !important;
-  }
-  .services-container{
-    height: 92vh;
-    background-repeat: no-repeat;
-    background-color: #fb8b2da1;
-    background-size: contain;
-  }
-  #service-title-h2{
-    text-align: left;
-    font-size: 55px;
-  }
-  #all-service-images-container{
-    width: 100vw;
-    margin-top: 50px;
-    height: 490px;
-  }
-  div.gallery{
-    width: auto;
-  }
-  #projSwitch{
-    margin-top: 260px;
-  }
-  #hoverTxt,.projTitle{
+  #skillSec{
     display: none;
   }
-  .overlay {
-    position: absolute;
-    bottom: 100%;
-    left: unset !important;
-    right: 0;
-    background-color: #073042;
-    overflow: hidden;
-    width: 85vw;
-    height: 0;
-    transition: .5s ease;
-  }
-  #Reviews-title{
-    font-size: 65px;
-    text-align: left;
-    color: #073042;
-    padding-top: 0%;
-    margin-bottom: 0px;
-  }
-  #AboutMe-title-h2{
-    padding-bottom: 10%;
-    text-align: right;
-    margin-right: 5px;
-  }
-  .about-me-container{
-    height: 65vh;
-    background-color: #c7c4c40f;
-    border-radius: 22px;
-    /* margin-bottom: 10%; */
-  }
-  .awards-main-container{
-    height: 100vh;
-    margin-top: 100px;
-  }
-  .nameColor {
-    text-align: center;
-    margin-left: 0px;
-    float: none;
+}
+
+@media(max-width:1190px){
+  #skillSec{
+    display: none;
   }
   .aboutMeContent{
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
+    font-size: 19.5px;
   }
-  .name, .email, .subject, .message {
-    width: 89vw;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+  #headerTxt2{
+    width: 100vw !important;
+    max-width: 100%;
   }
-  .message{
-    margin-top: 20px;
-    height: 135px;
+}
+
+@media(max-width:1080px){
+  .profileImg{
+    margin-top: 140px;
   }
-  .contactUsTitle{
-    font-size: 20px;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-bottom: 25px;
+  .aboutMeContent{
+    font-size: 19.5px;
   }
-  .button {
+  #contactHeaderImage{
+    width: 100%;
+    height: 25vh
+  }
+  #contact{
+    background-repeat: inherit;
+    height: 138vh;
+  }
+  #contactImgContainer{
+    position: absolute;
+  }
+  .button{
     margin-top: 5%;
     margin-bottom: 10%;
+    margin-left: 65%;
+    margin-right: 65%;
+  }
+
+  .contactUsTitle{
+    margin-top: 50%;
+  }
+
+  .name,.email,.subject{
+    width: 175%;
+    padding: 10px;
+  }
+
+  .message{
+    width: 175%;
+    float: none;
+    margin-top: 8%;
+    box-sizing: border-box;
+    border: solid black 1px;
+  }
+
+  #jobs{
+    margin-top: 28% !important;
+    margin-left: 0px !important;
+  }
+
+  .contactUsTitle{
+    margin-top: 0px !important;
+    margin-left: 18px;
+  }
+
+  form{
+    margin-left: 20px;
+  }
+
+  #Reviews-title{
+    margin-left: 6px;
+  }
+
+  .submit{
+    width: 197px;
+    margin-left: -1px;
+    height: 50px; 
+  }
+
+}
+
+@media(max-width:970px){
+  #btnsContainter{
+    margin-left: 7%;
+    margin-top: 645px;
+    left: 0px;
+  }
+}
+
+
+@media(max-width:795px){
+  .project1{
+    margin-top: 0px !important;
+  }
+  #service-title-h2{
+    margin-left: 0px !important;
+  }
+  .text{
+    width: 85vw;
+  }
+  .gallery:hover .overlay {
+    bottom: 0;
+    height: 50%;
+    z-index: 5;
+  }
+  .overlay{
+    background-color: #073042fa;
+    border-radius: 5px 5px 0px 0px;
+    position: fixed;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .item{
+    width: auto;
+    padding-bottom: 17%;
+  }
+  .projTitle, #hoverTxt{
+    display: none;
+  }
+  div.gallery{
+    height: 117px;
+    width: auto;
+    /* margin-top: 72px; */
+  }
+  #portfolio{
+    height: 70vh;
+    min-height: 481px;
+  }
+  .devItemContainer{
+    display: block;
+    padding:0px;
+  }
+  #all-service-images-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+  }
+  #buttonTxt{
+    margin-left: 0px !important;
+    width: 94.5vw;
+  }
+  #btnsContainter {
     margin-left: 0%;
-    margin-right: 22px;
-    float: right;
-    width: 190px;
-    background-color: #d7effe;
-    border-color: #d7effe;
-    color: black;
+    width: 100vw;
+  }
+  button.learn-more .circle{
+    text-align: center;
+  }
+
+  #all-service-images-container{
+    height: 515px;
+  }
+  #jobs{
+    width: 100vw;
+    margin-top: 40% !important;
+  }
+  input {
+    width: 50vw !important;
+    height: 55px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .message{
+    width: 80vw !important;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 190px;
+  }
+  form{
+    margin-left: 0px;
+  }
+  #Reviews-title, .contactUsTitle{
+    text-align: center;
+  }
+  .submit{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .circle{
+    display: none !important;
+  }
+  .profileImg{
+   display: none;
+  }
+  #AboutMe-title-h2, #Reviews-title, #service-title-h2{
+    font-size: 50px;
+  }
+  #AboutMe-title-h2{
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+  .contactUsTitle{
+    margin-left: 0px !important;
+    font-size: 20px;
+  }
+  .aboutMeContent{
+    width: 100vw;
+    margin-left: 0px;
+    padding: 25px;
+    margin-top: 125px;
+  }
 }
-.active-page{
-  border: none !important;
+
+@media(max-width:615px){
+  #wdr{
+    font-size: 4rem !important;
+  }
+  #headerTxt2{
+    font-size: 1.3em !important;
+  }
+  .action__text{
+    font-size: 0.7rem !important;
+  }
+  #logo{
+    display: none;
+  }
+  #home{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 85vh;
+  }
+  #Reviews-title{
+    margin-top: 100px;
+  }
+  .name, .email, .subject{
+    width: 80vw !important;
+  }
+  div.gallery{
+    margin-top: 70px;
+  }
+  #headerTxtContainer{
+    margin-top: 30%;
+  }
 }
-#divLine{
-  color: #fb8b2da1;
-  width: 70vw;
-  border: solid 1px;
-}
+
+@media (max-width:550px){
+  .aboutMeContent{
+    font-size: 17px;
+    margin-top: 100px;
+  }
+  .nav-link{
+    font-size: 10.5px;
+  }
+  .headline2 {
+    font-size: 70px;
+  }
+  .headline1{
+    font-size: 30px;
+  }
+  .justify-content-end{
+    justify-content: center !important;
+  }
+  #AboutMe-title-h2{
+    margin-top: 30px;
+  }
 }
